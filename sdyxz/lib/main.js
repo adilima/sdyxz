@@ -1,7 +1,7 @@
 
-async function showAbout() {
-    let html = "<p><strong>Error getting file: about.md</strong></p>";
-    await fetch("/public/about.md").then(x => x.text()).then((y) => {
+async function showReadme() {
+    let html = "<p><strong>Error getting file: /README.md</strong></p>";
+    await fetch("/README.md").then(x => x.text()).then((y) => {
         html = marked.parse(y, {
             renderer: new marked.Renderer(),
             gfm: true,

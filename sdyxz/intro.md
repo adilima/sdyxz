@@ -1,12 +1,10 @@
 # Prolog
 
-<div class="w3-center">
-  <div class="w3-bar w3-border w3-round">
-    <button type="button" class="w3-button w3-disabled">&#10094; Previous</button>
-    <button type="button" class="w3-button w3-right" onclick="showBook('bab1.md')">Next &#10095;</button>
-    <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab2.md')">Bab 2</button>
-    <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab3.md')">Bab 3</button>
-  </div>
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showReadme()">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab2.md')">Bab 2</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab3.md')">Bab 3</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab1.md')">Next &#10095;</button>
 </div>
 
 ## Sekilas Tentang Novel Asli
