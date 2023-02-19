@@ -1,5 +1,15 @@
-# Kehidupan Padang Rumput
+# Bab 3
+## Kehidupan Padang Rumput
 
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab2.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab4.md')">Bab 4</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab5.md')">Bab 5</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab6.md')">Bab 6</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab4.md')">Next &#10095;</button>
+</div>
+
+<!--
 <div class="w3-container w3-center">
   <a href="https://youtube.com/clip/Ugkx4Vuwk3GsE9ck1rxQP36iuO_MlPQgOP48" target="_blank">
     <img src="images/ilustrasi-bab3.jpg" width="100%" alt="Ilustrasi Bab 3"/>
@@ -8,6 +18,7 @@
     <p>Ilustrasi Video Bab 3</p>
   </div>
 </div>
+-->
 
 Para biksu menangisi kematian Biksu Jiaomu, tetapi beberapa orang dari mereka 
 masih sempat merawat orang-orang yang terluka dengan membalut luka mereka dan membawa mereka 

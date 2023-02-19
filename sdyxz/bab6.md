@@ -1,4 +1,13 @@
-# Misteri Di Puncak Tebing
+# Bab 6
+## Misteri Di Puncak Tebing
+
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab5.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab7.md')">Bab 7</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab8.md')">Bab 8</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab9.md')">Bab 9</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab7.md')">Next &#10095;</button>
+</div>
 
 Hasil terjemahan episode 6 ini lenyap secara misterius pada saat diperiksa
 di dalam folder ini. Sebelumnya disimpan di _parent folder_, supaya lebih mudah

@@ -1,5 +1,15 @@
-# Kebanggaan Sang Naga
+# Bab 12
+## Kebanggaan Sang Naga
 
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab11.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab13.md')">Bab 13</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab14.md')">Bab 14</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab15.md')">Bab 15</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab13.md')">Next &#10095;</button>
+</div>
+
+<!--
 [Ilustrasi video dari versi 2003](https://youtube.com/clip/UgkxOdvTKvPbGCzbi2fD0hOUW4JNa7r6yiCL) ini agak lebih akurat,
 meskipun dari sisi gambar tentu saja kalah dibandingkan versi 2017 pada gambar berikut.
 
@@ -14,6 +24,7 @@ meskipun dari sisi gambar tentu saja kalah dibandingkan versi 2017 pada gambar b
         </em></p>
     </div>
 </div>
+-->
 
 ***
 
@@ -91,7 +102,7 @@ macam masakan lagi yang siap untuk kau cicipi. Bagaimana kalau ikut kami saja?"
 "Siapa nama _Qianbei_?" tanya Guo Jing.
 
 "Margaku Hong," jawab pengemis itu. "Dan aku anak ke tujuh di keluargaku. Kalian anak-anak muda ini
-boleh panggil aku [Qigong](#qigong)."
+boleh panggil aku [Qigong](#qigong "Secara literal bermakna 'Anak laki-laki ketujuh'.")."
 
 "Ternyata _memang_ dia," pikir Huang Rong. "Dewa Pengemis Sembilan Jari! Tapi dia kelihatannya
 lebih muda dari Pendeta Qiu, masa dia satu generasi dengan guru Tujuh Pendekar Quanzhen? Hm!

@@ -1,5 +1,15 @@
-# Memanah Rajawali
+# Bab 5
+## Memanah Rajawali
 
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab4.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab6.md')">Bab 6</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab7.md')">Bab 7</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab8.md')">Bab 8</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab6.md')">Next &#10095;</button>
+</div>
+
+<!--
 <div class="w3-container w3-center">
   <a href="https://youtube.com/clip/UgkxpfbSsm8yNutQkUrWxdkSZpeiz-HL6Lp4" target="_blank">
     <img src="images/memanah-rajawali.jpg" alt="Memanah Rajawali" width="100%"/>
@@ -12,6 +22,7 @@
     </p>
   </div>
 </div>
+-->
 
 Sederet orang turun gunung. Setelah berjalan beberapa saat, tiba-tiba mereka mendengar raungan binatang buas di depan mereka. Han Baoju melompat ke atas kuda kuningnya, dan pergi untuk melihat apa yang terjadi. Setelah berlari beberapa saat, kuda kuning itu tiba-tiba berhenti dan tidak ada desakan yang bisa membuatnya bergerak.
 

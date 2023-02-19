@@ -1,4 +1,8 @@
 
+// These are meant for NW,js
+var bar = new nw.Menu({type:'menubar'});
+var menu = new nw.Menu();
+
 async function showReadme() {
     let html = "<p><strong>Error getting file: /README.md</strong></p>";
     await fetch("/README.md").then(x => x.text()).then((y) => {
@@ -59,6 +63,7 @@ async function showGitHub(fName) {
     });
     document.getElementById("preview").innerHTML = html;
 }
+
 
 fetch("/sdyxz/intro.md")
 .then(x => x.text())

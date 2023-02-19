@@ -1,5 +1,15 @@
-# Sepasang Iblis Cakar Tengkorak Putih
+# Bab 4
+## Sepasang Iblis Cakar Tengkorak Putih
 
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab3.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab5.md')">Bab 5</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab6.md')">Bab 6</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab7.md')">Bab 7</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab5.md')">Next &#10095;</button>
+</div>
+
+<!--
 <div class="w3-container w3-center">
   <a href="https://youtube.com/clip/Ugkxs-MhO45Yi_ZV-Y-pB4JeGPD3nku9eR1K" target="_blank">
     <img src="images/sepasang-iblis.jpg" width="100%" alt="Sepasang Iblis Cakar Tengkorak Putih"/>
@@ -11,6 +21,7 @@
     </em></p>
   </div>
 </div>
+-->
 
 "Baiklah, ayo kita perang lagi!" kata Wanyan Hongxi dengan lantang.
 

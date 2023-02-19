@@ -1,5 +1,15 @@
-# Qiu Chuji Mengaku Kalah
+# Bab 11
+## Qiu Chuji Mengaku Kalah
 
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab10.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab12.md')">Bab 12</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab13.md')">Bab 13</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab14.md')">Bab 14</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab12.md')">Next &#10095;</button>
+</div>
+
+<!--
 <div class="w3-container w3-center">
     <a href="https://youtube.com/clip/UgkxX2ar3dSLZiamMP2G_pldBlXRi4pHN3lQ" target="_blank">
         <img src="images/huang-rong-mengajar-guo-jing-berenang.jpg" alt="Pelajaran Berenang"/>
@@ -10,6 +20,7 @@
         </em></p>
     </div>
 </div>
+-->
 
 ***
 

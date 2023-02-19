@@ -1,4 +1,13 @@
-# Perlombaan Mencari Jodoh
+# Bab 7
+## Perlombaan Mencari Jodoh
+
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab6.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab8.md')">Bab 8</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab9.md')">Bab 9</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab10.md')">Bab 10</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab8.md')">Next &#10095;</button>
+</div>
 
 Keenam Orang Aneh dan Guo Jing mengambil arah ke Tenggara. Perjalanan itu memakan
 waktu sangat panjang. Mereka memerlukan waktu berhari-hari hanya untuk keluar dari

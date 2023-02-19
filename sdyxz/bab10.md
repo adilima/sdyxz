@@ -1,5 +1,15 @@
-# Pertemuan Para Musuh
+# Bab 10
+## Pertemuan Para Musuh
 
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab9.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab11.md')">Bab 11</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab12.md')">Bab 12</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab13.md')">Bab 13</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab11.md')">Next &#10095;</button>
+</div>
+
+<!--
 <div class="w3-container w3-center">
     <a href="https://youtube.com/clip/Ugkx7kJ3OZJ44bTcMesviBzko87HM9IR1vnI" target="_blank">
         <img src="images/mei-chaofeng-dan-guojing.jpg" alt="Mei Chaofeng Dibantu Guo Jing" width="75%"/>
@@ -10,6 +20,7 @@
         </em></p>
     </div> 
 </div>
+-->
 
 Wanyan Kang sangat terkejut ketika melihat Yang Tiexin keluar dari dalam lemari itu,
 dan kemudian mengenalinya. Ia berteriak, "Ternyata kau!" Ia mengacungkan tombak besi itu

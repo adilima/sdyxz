@@ -1,6 +1,19 @@
-# Memamerkan Ilmu Silat
+# Bab 8
+## Memamerkan Ilmu Silat
+
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab7.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab9.md')">Bab 9</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab10.md')">Bab 10</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab11.md')">Bab 11</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab9.md')">Next &#10095;</button>
+</div>
+
+<!--
 
 [![Guo Jing terpesona melihat Huang Rong "Guo Jing terpesona ketika melihat Huang Rong"](images/huang-rong.jpg)](https://youtube.com/clip/Ugkxibxs0eU0Y92XRPr-RPe2FX3Rrq_F6R7H)
+
+-->
 
 Wang Chuyi berlari luar biasa cepat. Dalam waktu singkat mereka sudah tiba di luar kota. Dalam 
 beberapa li, mereka sudah sampai di bawah kaki bukit. Karena penasaran ingin menguji kemampuan

@@ -1,4 +1,13 @@
-# Tombak Berkarat dan Bajak Rusak
+# Bab 9
+## Tombak Berkarat dan Bajak Rusak
+
+<div class="w3-bar w3-border w3-round">
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab8.md')">&#10094; Previous</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab10.md')">Bab 10</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab11.md')">Bab 11</button>
+  <button class="w3-bar-item w3-btn w3-white w3-hover-red" type="button" onclick="showBook('bab12.md')">Bab 12</button>
+  <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red w3-right" onclick="showBook('bab10.md')">Next &#10095;</button>
+</div>
 
 Guo Jing dan Huang Rong kembali ke kediaman Pangeran Zhao dan melompati tembok tinggi untuk memasuki
 halaman. Huang Rong berbisik ke telinga Guo Jing, "Qing Gong-mu bagus sekali!" Guo Jing mengendap-endap
