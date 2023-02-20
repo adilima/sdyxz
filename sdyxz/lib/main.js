@@ -1,8 +1,4 @@
 
-// These are meant for NW,js
-var bar = new nw.Menu({type:'menubar'});
-var menu = new nw.Menu();
-
 async function showReadme() {
     let html = "<p><strong>Error getting file: /README.md</strong></p>";
     await fetch("/README.md").then(x => x.text()).then((y) => {
@@ -64,6 +60,56 @@ async function showGitHub(fName) {
     document.getElementById("preview").innerHTML = html;
 }
 
+// These are meant for NW,js
+var bar = new nw.Menu({type:'menubar'});
+var menu = new nw.Menu();
+menu.append(new nw.MenuItem({
+    label: 'Load...',
+    click: function() {
+        let bab = prompt("Bab:", "1");
+        if (bab != null) {
+            showBook("bab" + bab + ".md");
+        }
+    }
+}));
+
+menu.append(new nw.MenuItem({
+    label: 'Pendahuluan',
+    click: function() {
+        showBook("intro.md");
+    }
+}));
+
+menu.append(new nw.MenuItem({
+    label: 'Last Edit',
+    click: function() {
+        showBook("bab12.md");
+    }
+}));
+
+menu.append(new nw.MenuItem({type: 'separator'}));
+
+menu.append(new nw.MenuItem({
+    label: 'On GitHub',
+    click: function() {
+        let bab = prompt("Bab:", "1");
+        if (bab != null) {
+            let strTest = 'https://github.com/fxadilima/memanah-rajawali/blob/main/Book1/bab' + bab + '.md';
+            nw.Window.open(strTest, {}, (new_win) => {
+                new_win.on('loaded', function() {
+                    this.setTitle("Memanah Rajawali on GitHub | Bab " + bab);
+                });
+            });
+        }
+    }
+}));
+
+bar.append(new nw.MenuItem({
+    label: 'Editing',
+    submenu: menu
+}));
+
+nw.Window.get().menu = bar;
 
 fetch("/sdyxz/intro.md")
 .then(x => x.text())
