@@ -23,6 +23,30 @@ async function showReadme() {
     document.getElementById("preview").innerHTML = html;
 }
 
+async function showTOC() {
+    let html = "<p><strong>Error getting file: /README.md</strong></p>";
+    await fetch("/sdyxz/toc-plain.md").then(x => x.text()).then((y) => {
+        html = marked.parse(y, {
+            renderer: new marked.Renderer(),
+            gfm: true,
+            extra: true,
+            smartLists: true,
+            smartypants: false,
+            pedantic: false,
+            breaks: false,
+            highlight: function(code, lang, cb) {
+                let res = hljs.highlight(code, {language: lang}).value;
+                if (cb) {
+                    cb(null, res);
+                }
+                return res;    
+            }
+        });
+        return html;
+    });
+    document.getElementById("preview").innerHTML = html;
+}
+
 async function showBook(fName) {
     let html = "<p><strong>Error getting file: " + fName + "</strong></p>";
     await fetch("/sdyxz/" + fName).then(x => x.text()).then((y) => {
@@ -111,7 +135,7 @@ bar.append(new nw.MenuItem({
 
 nw.Window.get().menu = bar;
 
-fetch("/sdyxz/intro.md")
+fetch("/sdyxz/toc-plain.md")
 .then(x => x.text())
 .then((y) => {
     document.getElementById("preview").innerHTML = marked.parse(y, { 

@@ -1,5 +1,5 @@
 # Bab 2
-## Tujuh Orang Aneh Dari Selatan
+## Tujuh Orang Aneh Dari Jiangnan
 
 <div class="w3-bar w3-border w3-round">
   <button type="button" class="w3-bar-item w3-btn w3-white w3-hover-red" onclick="showBook('bab1.md')">&#10094; Previous</button>
