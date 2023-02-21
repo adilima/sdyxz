@@ -11,3 +11,7 @@ beautify the text, then use _unicode_ or _emoji_ symbols.
 |  :---:   |    :---:   |
 | [:house:](sdyxz/intro.md)  | [:one:](sdyxz/bab1.md) [:two:](sdyxz/bab2.md) [:three:](sdyxz/bab3.md) |
 
+## Note about Chrome On Android
+
+The above fancy stuff currently is not looking pretty on Android (at least _not_ from inside Chrome).
+
